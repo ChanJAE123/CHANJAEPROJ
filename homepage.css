@@ -29,9 +29,9 @@ body {
     letter-spacing: 2px;
     margin: 0;
     animation: fadeInText 2s ease-out;
-  }
-  
-  .hero p {
+}
+
+.hero p {
     font-size: 1.5rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -39,18 +39,18 @@ body {
     opacity: 0.8;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     animation: fadeInText 1s 200ms ease-out;
-  }
-  
-  @keyframes fadeInText {
+}
+
+@keyframes fadeInText {
     0% {
-      opacity: 0;
-      transform: translateY(20px);
+        opacity: 0;
+        transform: translateY(20px);
     }
     100% {
-      opacity: 1;
-      transform: translateY(0);
+        opacity: 1;
+        transform: translateY(0);
     }
-  }
+}
 
 .navbar {
     background: #006400;
@@ -72,16 +72,12 @@ body {
     color: white;
     text-decoration: none;
     font-weight: bold;
-}
-
-.navbar ul li a:hover {
-    text-decoration: underline;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
 .section {
     padding: 40px 20px;
     text-align: justify;
-    
 }
 
 .section.bg-light {
@@ -104,11 +100,12 @@ h2 {
     margin: 15px 0;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.project-card h3 {
+.project-card b {
     margin-bottom: 10px;
-    color: #006400;
+    color: #000300;
 }
 
 .project-card a {

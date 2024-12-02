@@ -1,10 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FINAL EXAM Portfolio</title>
-    <link rel="stylesheet" href="homepage.css" />
+    <link rel="stylesheet" href="homepage.css"/>
+    <style>
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      .navbar ul li a:hover {
+        color: #b0b3b0;
+        text-decoration: underline;
+      }
+
+      .project-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      }
+
+      .scroll-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #006400;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+        display: none;
+        font-size: 1.5rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+      }
+
+      .scroll-to-top:hover {
+        background-color: #004d00;
+      }
+    </style>
   </head>
   <body>
     <header class="hero">
@@ -17,7 +52,7 @@
     <nav class="navbar">
       <ul>
         <li><a href="#about">About Me</a></li>
-        <li><a href="#sdg15">SDG #15</a></li>
+        <li><a href="#sdg15">SDG</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact Me</a></li>
@@ -28,23 +63,23 @@
       <div class="container">
         <h2>About Me</h2>
         <p>
-          Hello! I'm Chan! Currenty First Year College at Batangas State
-          University. Multiple years from now, I see my self as a passionate
+          Hello! I'm Chan! Currently a First Year College student at Batangas State
+          University. Multiple years from now, I see myself as a passionate
           Software Engineer - Machine Learning, Junior Web Developer, and a
-          successful man who achieved his dreams and also advocate for
+          successful man who achieved his dreams and advocates for
           environmental sustainability.
         </p>
 
         <p>
-          Well, up-to-date, my goal is to create a portfolio that points out the
-          importance of Lives on Land.
+          Well, up-to-date, my goal is to create a portfolio that highlights the
+          importance of Life on Land.
         </p>
       </div>
     </section>
 
     <section id="sdg15" class="section bg-light">
       <div class="container">
-        <h2>Insights in Life on Land</h2>
+        <h2>Insights on Life on Land</h2>
         <p>
           SDG 15 focuses on protecting, restoring, and promoting the sustainable
           use of terrestrial ecosystems. This includes halting deforestation,
@@ -69,19 +104,6 @@
           </p>
           <a href="sdg.html"><h4>View Projects</h4></a>
         </div>
-        <!-- <h3>Battle Against Deforestation</h3>
-          <p>
-            Let's Tackle about what is deforestation and how to undo it using the opposite way.
-          </p>
-          <a href="SDG.html">View Project</a>
-        </div> -->
-        <!-- <div class="project-card">
-          <h3>Extend the Lifespan of Wildlife</h3>
-          <p>
-            Dive deeper about how wild living things live their daily lives and what destroys them
-          </p>
-          <a href="#">View Project</a>
-        </div> -->
       </div>
     </section>
 
@@ -127,5 +149,23 @@
       </div>
     </footer>
 
+    <button class="scroll-to-top" id="scrollToTopBtn">&#8593;</button>
+
+    <script>
+      const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+      window.onscroll = function () {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+          scrollToTopBtn.style.display = 'block';
+        } else {
+          scrollToTopBtn.style.display = 'none';
+        }
+      };
+
+      scrollToTopBtn.addEventListener('click', function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    </script>
   </body>
 </html>
+
