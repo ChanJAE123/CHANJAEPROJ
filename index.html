@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LABYU MAMA DANG & PAPA OME</title>
-    <link rel="stylesheet" href="homepage.css"/>
+    <link rel="stylesheet" href="homepage.css" />
     <style>
-
       html {
         scroll-behavior: smooth;
       }
@@ -45,6 +44,7 @@
     <header class="hero">
       <div class="container">
         <h1>Hi I'm John Andrei E. Chan</h1>
+        <p>Welcome! Visit My Portfolio About Me and SDG 15!</p>
       </div>
     </header>
 
@@ -62,10 +62,10 @@
       <div class="container">
         <h2>About Me</h2>
         <p>
-          Hello! I'm Chan! Currently a First Year College student at Batangas State
-          University. Multiple years from now, I see myself as a passionate
-          Software Engineer - Machine Learning, Junior Web Developer, and a
-          successful man who achieved his dreams and advocates for
+          Hello! I'm Chan! Currently a First Year College student at Batangas
+          State University. Multiple years from now, I see myself as a
+          passionate Software Engineer - Machine Learning, Junior Web Developer,
+          and a successful man who achieved his dreams and advocates for
           environmental sustainability.
         </p>
 
@@ -151,20 +151,22 @@
     <button class="scroll-to-top" id="scrollToTopBtn">&#8593;</button>
 
     <script>
-      const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+      const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
       window.onscroll = function () {
-        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-          scrollToTopBtn.style.display = 'block';
+        if (
+          document.body.scrollTop > 200 ||
+          document.documentElement.scrollTop > 200
+        ) {
+          scrollToTopBtn.style.display = "block";
         } else {
-          scrollToTopBtn.style.display = 'none';
+          scrollToTopBtn.style.display = "none";
         }
       };
 
-      scrollToTopBtn.addEventListener('click', function () {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+      scrollToTopBtn.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
       });
     </script>
   </body>
 </html>
-
