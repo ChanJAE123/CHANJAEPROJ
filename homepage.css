@@ -32,12 +32,17 @@ body {
 }
 
 .hero p {
-    text-align: left;
-    color:#ffffff;
-    font-size: 40px;
-    margin-top: 10px;
-    text-decoration: solid;
-    animation: fadeInText 2s ease-in;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    background: linear-gradient(90deg, #fbfdfc, #b0b3b0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    animation: fadeInText 2s ease-out;
 }
 
 @keyframes fadeInText {
@@ -121,8 +126,4 @@ h2 {
     color: white;
     text-align: center;
     padding: 10px 0;
-}
-
-.asdasd{
-    
 }
