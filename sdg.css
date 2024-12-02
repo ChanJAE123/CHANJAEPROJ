@@ -30,7 +30,7 @@
     text-align: center;
   }
   
-  .hero h1 {
+  /* .hero h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 2.8rem;
     font-weight: 700;
@@ -40,8 +40,25 @@
     background: linear-gradient(90deg, #006400, #00b300);
     -webkit-background-clip: text;
     color: transparent; 
-    padding: 10px 0; 
+    padding: 10px 0;
+    animation: FadeInText 2s ease-out;
+  } */
+
+  .hero h1 {
+    font-size: 2.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), 0 0 25px rgba(0, 255, 0, 0.5);
+    background: linear-gradient(90deg, #006400, #00b300);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0;
+    animation: fadeInText 2s ease-out;
   }
+
   
   .hero p {
     font-family: 'Roboto', sans-serif; 
@@ -49,11 +66,25 @@
     font-weight: 400; 
     letter-spacing: 1px;
     line-height: 1.6;
-    color: rgba(255, 255, 255, 0.9); 
+    color: transparent;
+    background: linear-gradient(90deg, #3d3f3d, #b4b4b4);
+    -webkit-background-clip: text;
+    background-clip: text;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 0 0 5px rgba(0, 255, 0, 0.3);
+    animation: fadeInText 2s ease-out;
   }
   
-  
+  @keyframes fadeInText {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400&display=swap');
   
   .navbar {
@@ -149,5 +180,24 @@
   
   .toggle-checkbox:checked + .toggle-btn + .hidden-content {
     display: block;
+  }
+
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #006400;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: none;
+    font-size: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .scroll-to-top:hover {
+    background-color: #004d00;
   }
   
