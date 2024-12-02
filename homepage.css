@@ -27,18 +27,17 @@ body {
     color: transparent;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin: 0;
+    margin-top: 150px;
     animation: fadeInText 2s ease-out;
 }
 
 .hero p {
-    font-size: 1.5rem;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    text-align: left;
+    color:#ffffff;
+    font-size: 40px;
     margin-top: 10px;
-    opacity: 0.8;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-    animation: fadeInText 1s 200ms ease-out;
+    text-decoration: solid;
+    animation: fadeInText 2s ease-in;
 }
 
 @keyframes fadeInText {
@@ -122,4 +121,71 @@ h2 {
     color: white;
     text-align: center;
     padding: 10px 0;
+}
+
+.stickman {
+    position: relative;
+    width: 100px;
+    height: 200px;
+}
+
+.head {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffae00;
+    position: absolute; 
+    top: 0;
+    left: 25px;
+    animation: fadeInText 2s ease-out;
+}
+
+.body {
+    width: 10px;
+    height: 80px;
+    background-color: #ffae00;
+    position: absolute;
+    top: 60px;
+    left: 45px;
+    animation: fadeInText 2s ease-out;
+}
+
+.left-arm, .right-arm {
+    width: 10px;
+    height: 60px;
+    background-color: #ffae00;
+    position: absolute;
+    top: 70px;
+    animation: fadeInText 2s ease-out;
+}
+
+.left-arm {
+    transform: rotate(-45deg);
+    left: 10px;
+    animation: fadeInText 2s ease-out;
+}
+
+.right-arm {
+    transform: rotate(45deg);
+    right: 10px;
+    animation: fadeInText 2s ease-out;
+}
+
+.left-leg, .right-leg {
+    width: 10px;
+    height: 80px;
+    background-color: #ffae00;
+    position: absolute;
+    top: 140px;animation: fadeInText 2s ease-out;
+}
+
+.left-leg {
+    transform: rotate(45deg);
+    left: 20px;animation: fadeInText 2s ease-out;
+}
+
+.right-leg {
+    transform: rotate(-45deg);
+    right: 20px;
+    animation: fadeInText 2s ease-out;
 }
