@@ -148,3 +148,48 @@ h2 {
     text-align: center;
     padding: 10px 0;
 }
+
+/* Mobile View Adjustments */
+@media (max-width: 768px) {
+    .navbar {
+      position: fixed;  /* Keep the navbar fixed at the top */
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      background: #004d00;
+      display: flex;
+      justify-content: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  /* Keep the shadow effect */
+      z-index: 1000;  /* Ensure the navbar stays on top of other content */
+    }
+  
+    .navbar ul {
+      flex-direction: row;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .navbar ul li {
+      margin: 0 5px;
+    }
+  
+    .navbar ul li a {
+      padding: 10px 15px;
+      font-size: 1rem;
+    }
+  
+    body {
+      margin-left: 0; /* Remove left margin in mobile view */
+    }
+  
+    header.hero {
+      margin-top: 60px; /* Add top margin to avoid overlap with the navbar */
+    }
+  
+    #about {
+      padding-top: 80px; /* Add space below the navbar to avoid content being hidden */
+    }
+  }
+  
