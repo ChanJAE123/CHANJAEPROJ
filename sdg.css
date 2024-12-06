@@ -226,7 +226,7 @@ body {
 
   .hero {
       height: 40vh;
-      background: url('image/bright-green-color-solid-background-1920x1080.png') no-repeat center center/cover;
+  background: url(image/bg\ for\ homepage.jpg) no-repeat center center/cover;
   }
 
   .hero h1 {
