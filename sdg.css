@@ -22,7 +22,7 @@ body {
 }
 
 .hero {
-  background: url('image/bright-green-color-solid-background-1920x1080.png') no-repeat center center/cover;
+  background: url(image/bg\ for\ homepage.jpg) no-repeat center center/cover;
   height: 50vh;
   color: white;
   display: flex;
@@ -36,7 +36,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), 0 0 25px rgba(0, 255, 0, 0.5);
-  background: linear-gradient(90deg, #006400, #00b300);
+  background: linear-gradient(90deg, #fdfbfc, #b0b3b0);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -53,7 +53,7 @@ body {
   letter-spacing: 1px;
   line-height: 1.6;
   color: transparent;
-  background: linear-gradient(90deg, #3d3f3d, #b4b4b4);
+  background: linear-gradient(90deg, #fdfbfc, #b0b3b0);
   -webkit-background-clip: text;
   background-clip: text;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 0 0 5px rgba(0, 255, 0, 0.3);
@@ -200,9 +200,7 @@ body {
   background-color: #004d00;
 }
 
-/* Media Queries for Mobile View */
 @media (max-width: 768px) {
-  /* Remove all margins and paddings for body and html to avoid any unwanted space */
   html, body {
       margin: 0;
       padding: 0;
@@ -212,8 +210,8 @@ body {
       width: 100%;
       position: sticky;
       top: 0;
-      z-index: 1000; /* Ensure navbar stays on top */
-      background: #004d00; /* Keep the navbar visible */
+      z-index: 1000; 
+      background: #004d00;
       box-shadow: none;
   }
 
@@ -226,21 +224,19 @@ body {
       padding: 15px 10px;
   }
 
-  /* Hero Section */
   .hero {
       height: 40vh;
       background: url('image/bright-green-color-solid-background-1920x1080.png') no-repeat center center/cover;
   }
 
-  /* Ensure there's no extra margin or padding at the top of hero */
   .hero h1 {
       font-size: 2rem;
-      margin-top: 0; /* Remove any unwanted margin */
+      margin-top: 0;
   }
 
   .hero p {
       font-size: 1.2rem;
-      margin-top: 0; /* Remove any unwanted margin */
+      margin-top: 0;
   }
 
   .scroll-to-top {

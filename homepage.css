@@ -12,12 +12,11 @@ body {
 }
 
 .hero {
-    background: url(image/forest\ bg.webp) no-repeat center center/cover;
+    background: url(image/bg\ for\ homepage.jpg) no-repeat center center/cover;
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 100px 20px;
 }
-
 .hero h1 {
     font-size: 3.5rem;
     font-family: 'Roboto', sans-serif;
@@ -45,6 +44,7 @@ body {
     margin: 0;
     animation: fadeInText 2s ease-out;
 }
+
 
 @keyframes fadeInText {
     0% {
@@ -149,10 +149,9 @@ h2 {
     padding: 10px 0;
 }
 
-/* Mobile View Adjustments */
 @media (max-width: 768px) {
     .navbar {
-      position: fixed;  /* Keep the navbar fixed at the top */
+      position: fixed;
       top: 0;
       left: 0;
       width: 100%;
@@ -160,8 +159,8 @@ h2 {
       background: #004d00;
       display: flex;
       justify-content: center;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  /* Keep the shadow effect */
-      z-index: 1000;  /* Ensure the navbar stays on top of other content */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
     }
   
     .navbar ul {
@@ -182,15 +181,15 @@ h2 {
     }
   
     body {
-      margin-left: 0; /* Remove left margin in mobile view */
+      margin-left: 0;
     }
   
     header.hero {
-      margin-top: 60px; /* Add top margin to avoid overlap with the navbar */
+      margin-top: 60px;
     }
   
     #about {
-      padding-top: 80px; /* Add space below the navbar to avoid content being hidden */
+      padding-top: 80px;
     }
   }
   
