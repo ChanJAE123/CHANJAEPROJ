@@ -51,6 +51,10 @@ body {
   animation: fadeInText 2s ease-out;
 }
 
+.navbar {
+  background-color: transparent;
+}
+
 .hero p {
   font-family: 'Roboto', sans-serif; 
   font-size: 1.4rem; 
@@ -190,7 +194,7 @@ body {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #006400;
+  background-color: #006600;
   color: white;
   padding: 10px 15px;
   border-radius: 50%;
