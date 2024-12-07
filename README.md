@@ -1,7 +1,6 @@
 🌟 MAIN PURPOSE:
    MY/SUSTAINABLE DEVELOPMENT GOAL 15 (LIFE ON LAND) PORTFOLIO
 
-
 🎉WHAT'S INSIDE?🎉
   1. ABOUT ME SECTION - Information about me :>
   2. SDG #15 SECTION - Detailed Information about Life on Land
@@ -16,9 +15,8 @@
       • FACEBOOK
       • INSTAGRAM
 
-
 😱COOL STUFFS:
-  1. Cute Animation - Maui Saves The World From Deforestators CHEEEHOOO!!!📣📣
+  1. Cute Animation - Maui Saves The World From Deforestators CHEEEHOOO!!!📣📣📣
   2. Teaches you to fight for Life on Land!!!
   3. EZ Navigation!!!
   4. RESPONSIVE for desktops, laptops, mobile devices and even MOTORCYCLES!!!🏍️🏍️🏍️
@@ -26,5 +24,9 @@
   6. Nonchalant but Aesthetical Design!
   7. AT NAPAKARAMI PANG IBA!!!
 
-  VISIT MY SIMPLE BUT AWESOME WEBSITE LIVE: https://chanjae123.github.io/CHANJAEPROJ/
-  ANY CONCERNS?? PUNTA KA SA CONTACT ME SECTION NG WEBSITE KO :>>
+🛠️TOOLS USED:
+   • VS CODE - for IDE
+   • HTML - for structure
+   • CSS - for design
+   • JS - for functionality
+   • Github - for host
