@@ -1,7 +1,4 @@
-
-
-
-
+/* may prob pa ng konti sa ".hero h1 name" */
 * {
     margin: 0;
     padding: 0;
@@ -157,7 +154,16 @@ body {
     transition: transform 2s ease-in-out;
     opacity: 0; 
   }
-  
+
+  .maui-container h2{
+    position: none;
+    display: none;
+    justify-content: left;
+    align-items: left;
+    height: 100px;
+  }
+
+
   .maui-img {
     width: 150px;
     height: auto;
@@ -389,7 +395,7 @@ text-align: left;
         position: absolute;
         bottom: 0;
         transition: transform 2s ease-in-out;
-        opacity: 0; 
+        opacity: 0;
     }
 
     .maui-img {
