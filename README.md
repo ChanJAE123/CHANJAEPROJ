@@ -19,7 +19,7 @@
   1. Cute Animation - Maui Saves The World From Deforestators CHEEEHOOO!!!📣📣📣
   2. Teaches you to fight for Life on Land!!!
   3. EZ Navigation!!!
-  4. RESPONSIVE for desktops, laptops, mobile devices and even MOTORCYCLES!!!🏍️🏍️🏍️
+  4. ✅RESPONSIVE for desktops, laptops, mobile devices and even MOTORCYCLES!!!🏍️🏍️🏍️
   5. Multi-page!!!
   6. Nonchalant but Aesthetical Design!
   7. AT NAPAKARAMI PANG IBA!!!
