@@ -11,9 +11,9 @@
   4. SKILLS SECTION - Breaks down what tools that I used to use and have average to above average knowledge.
   5. CONTACT ME SECTION - Provides ways for audience to interact with me in 3 different socmed platforms.
      Platforms:
-      • GMAIL
-      • FACEBOOK
-      • INSTAGRAM
+     • GMAIL
+     • FACEBOOK
+     • INSTAGRAM
 
 😱COOL STUFFS:
   1. Cute Animation - Maui Saves The World From Deforestators CHEEEHOOO!!!📣📣📣
@@ -25,8 +25,8 @@
   7. AT NAPAKARAMI PANG IBA!!!
 
 🛠️TOOLS USED:
-   • VS CODE - for IDE
-   • HTML - for structure
-   • CSS - for design
-   • JS - for functionality
-   • Github - for host
+• VS CODE - for IDE
+• HTML - for structure
+• CSS - for design
+• JS - for functionality
+• Github - for host
