@@ -200,8 +200,8 @@ body {
     opacity: 0;
     visibility: hidden;
     position: absolute;
-    top: 100%;
-    left: 50%;
+    top: 85%;
+    left: 60%;
     transform: translateX(-50%);
     font-size: 2rem;
     color: #006400;
@@ -460,6 +460,25 @@ text-align: left;
     }
 }
 
-  
+.leaf {
+  position: fixed;
+  top: -50px;
+  width: 20px;
+  height: 20px;
+  background-image: url('image/final\ dahon.png');
+  background-size: cover;
+  animation: fall linear infinite;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}
 
   

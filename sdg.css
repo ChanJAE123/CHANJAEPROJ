@@ -285,3 +285,24 @@ body {
       font-size: 0.8rem;
   }
 }
+
+.leaf {
+  position: fixed;
+  top: -50px;
+  width: 20px;
+  height: 20px;
+  background-image: url('image/final\ dahon.png');
+  background-size: cover;
+  animation: fall linear infinite;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}

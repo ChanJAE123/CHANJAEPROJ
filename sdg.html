@@ -163,6 +163,21 @@
       scrollToTopBtn.addEventListener("click", function () {
         window.scrollTo({ top: 0, behavior: "smooth" });
       });
+
+      const numberOfLeaves = 30;
+      const body = document.body;
+
+      for (let i = 0; i < numberOfLeaves; i++) {
+        const leaf = document.createElement("div");
+        leaf.classList.add("leaf");
+
+        leaf.style.left = Math.random() * 100 + "vw";
+        leaf.style.animationDelay = Math.random() * 5 + "s";
+        leaf.style.animationDuration = 3 + Math.random() * 4 + "s";
+
+        body.appendChild(leaf);
+      }
+
       </script>
   </body>
 </html>

@@ -59,23 +59,23 @@
       </ul>
     </nav>
 
-    
     <div class="maui-container">
       <h2>click the hook to call maui</h2>
-      <img src="image/maui hook.avif" alt="Hook" class="hook-img hook" id="hook"/>
+      <img
+        src="image/maui hook.avif"
+        alt="Hook"
+        class="hook-img hook"
+        id="hook"
+      />
       <div class="maui" id="maui">
-        <img src="image/maui.webp" alt="Maui" class="maui-img">
+        <img src="image/maui.webp" alt="Maui" class="maui-img" />
       </div>
       <div class="item" id="item">
-        <img src="image/chainsaw man.jpg" alt="Picked Item">
+        <img src="image/chainsaw man.jpg" alt="Picked Item" />
       </div>
     </div>
-    <div class="message" id="message">
-      Lives on Land are now safe!
-    </div>
-    
-    
-    
+    <div class="message" id="message">Lives on Land are now safe!</div>
+
     <section id="about" class="section">
       <div class="container">
         <h2>About Me</h2>
@@ -141,7 +141,7 @@
         <h2>Contact Me</h2>
         <p>
           Feel free to reach out to me if you have any concerns or want to know
-          more about my work :)).
+          more about my work :>.
         </p>
         <div class="social-icons">
           <a
@@ -193,41 +193,43 @@
       });
 
       const hook = document.getElementById("hook");
-const maui = document.getElementById("maui");
-const item = document.getElementById("item");
-const message = document.getElementById("message");
+      const maui = document.getElementById("maui");
+      const item = document.getElementById("item");
+      const message = document.getElementById("message");
 
-hook.addEventListener("click", function() {
+      hook.addEventListener("click", function () {
+        maui.classList.add("maui-enter");
 
-  maui.classList.add("maui-enter");
+        setTimeout(function () {
+          item.classList.add("item-vanish");
+        }, 1000);
 
+        setTimeout(function () {
+          maui.classList.add("maui-action");
+          item.style.opacity = 0;
+        }, 2000);
 
-  setTimeout(function() {
-    item.classList.add("item-vanish");
-  }, 1000);
+        setTimeout(function () {
+          message.style.opacity = 1;
+          message.style.visibility = "visible";
+        }, 2500);
 
+        hook.classList.add("clicked");
+      });
 
-  setTimeout(function() {
-    maui.classList.add("maui-action");
-    item.style.opacity = 0;
-  }, 2000); 
+      const numberOfLeaves = 30;
+      const body = document.body;
 
+      for (let i = 0; i < numberOfLeaves; i++) {
+        const leaf = document.createElement("div");
+        leaf.classList.add("leaf");
 
-  setTimeout(function() {
-    message.style.opacity = 1;
-    message.style.visibility = "visible";
-  }, 2500); 
+        leaf.style.left = Math.random() * 100 + "vw";
+        leaf.style.animationDelay = Math.random() * 5 + "s";
+        leaf.style.animationDuration = 3 + Math.random() * 4 + "s";
 
-
-  hook.classList.add("clicked");
-});
-
-
-
-
-
-
-
+        body.appendChild(leaf);
+      }
     </script>
   </body>
 </html>
