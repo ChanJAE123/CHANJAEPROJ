@@ -200,8 +200,8 @@ body {
     opacity: 0;
     visibility: hidden;
     position: absolute;
-    top: 85%;
-    left: 60%;
+    top: 83%;
+    left: 55%;
     transform: translateX(-50%);
     font-size: 2rem;
     color: #006400;
