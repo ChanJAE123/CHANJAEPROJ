@@ -73,7 +73,7 @@ body {
   justify-content: center;
   align-items: center;
   opacity: 1;
-  transition: opacity 1s ease-out, transform 3s ease-out;
+  transition: opacity 2s ease-out, transform 20s ease-out;
 }
 
 #intro p {
@@ -555,7 +555,7 @@ h2 {
 
     .maui-enter {
         opacity: 1;
-        transform: translateX(-140px);
+        transform: translateX(-125px);
     }
 
     .maui-exit {
@@ -624,7 +624,7 @@ h2 {
     font-size: 1.5rem;
     /* top: 100%; */
     left: 50%;
-    margin-top: 350px;
+    margin-top: 330px;
     transform: translateX(-50%);
     padding: 0px 10px;
   }
