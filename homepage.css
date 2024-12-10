@@ -5,6 +5,18 @@
     box-sizing: border-box;
 }
 
+.leaf {
+  position: fixed;
+  top: -50px;
+  width: 20px;
+  height: 20px;
+  background-image: url('image/final\ dahon.png');
+  background-size: cover;
+  animation: fall linear infinite;
+  pointer-events: none;
+  z-index: 9999;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -408,7 +420,7 @@ h2 {
     padding: 10px 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   #intro p {
     font-size: 2rem; 
     padding: 0 20px;
@@ -506,6 +518,9 @@ h2 {
         width: 120px;
         height: auto;
     }
+    .maui-action {
+      transform: translateX(0px) translateY(0px);
+    }
 
     
     .item {
@@ -540,21 +555,21 @@ h2 {
 
     .maui-enter {
         opacity: 1;
-        transform: translateX(-300px);
+        transform: translateX(-140px);
     }
 
     .maui-exit {
         opacity: 0;
-        transform: translateX(300px);
+        transform: translateX(10px);
     }
 
     #message {
         font-size: 1.5rem;
         /* top: 100%; */
         left: 50%;
-        margin-top: 325px;
+        margin-top: 350px;
         transform: translateX(-50%);
-        padding: 20px 10px;
+        padding: 0px 10px;
       }
     
 
@@ -607,17 +622,17 @@ h2 {
 
 }
 
-.leaf {
-  position: fixed;
-  top: -50px;
-  width: 20px;
-  height: 20px;
-  background-image: url('image/final\ dahon.png');
-  background-size: cover;
-  animation: fall linear infinite;
-  pointer-events: none;
-  z-index: 9999;
-}
+/*@media (max-width: 480px) {
+  #message {
+    font-size: 1.5rem;
+    /* top: 100%; */
+    /* left: 50%;
+    margin-top: 350px;
+    transform: translateX(-50%);
+    padding: 0px 10px;
+  }
+} */
+
 
 @keyframes fall {
   0% {
