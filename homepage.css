@@ -434,6 +434,15 @@ h2 {
     background-image: url(image/gmail\ try\ icon.webp);
   }
 
+  .github {
+    background-color: transparent;
+    background-image: url(image/github\ icon.png);
+    width: 35px;
+    height: 35px;
+    margin-top: 9px;
+    margin-left: 5px;
+  }
+
 .footer {
     background: #333;
     color: white;
@@ -454,6 +463,14 @@ h2 {
         font-size: 2rem;
         margin-bottom: 10px;
     }
+
+  .project-card b {
+    word-spacing: -2px;
+  }
+
+  .project-card p {
+    word-spacing: -2px;
+  }
 
     .asd {
       font-size: 2rem;
@@ -652,6 +669,14 @@ h2 {
   
     .project-label, .project-label2, .project-label3 {
       font-size: 1rem;
+    }
+
+    .section {
+      padding: 10px 10px;
+    }
+
+    .social-icons {
+      margin-top: 25px;
     }
 }
 
