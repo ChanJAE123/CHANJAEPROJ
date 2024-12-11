@@ -50,7 +50,7 @@
 
     <header class="hero">
       <div class="container">
-        <h1><span class="asd">Hi I'm</span> John Andrei E. Chan</h1>
+        <span class="asd">Hi I'm</span><h1>John Andrei E. Chan</h1>
         <p>Welcome, Visit My Portfolio About Me and SDG 15</p>
       </div>
     </header>
@@ -85,6 +85,11 @@
 
     <section id="about" class="section">
       <div class="container">
+        <div class="profile-container">
+          <img class="profpic" src="image/prof pic ko.png" alt="Profile Picture" class="profpic">
+          <div class="hi-message">Hi!</div>
+        </div>
+        
         <h2>About Me</h2>
         <p>
           Hello! I'm Chan! Currently a First Year College student at Batangas
@@ -277,6 +282,15 @@ window.onload = function() {
 
         body.appendChild(leaf);
       }
+
+      document.querySelector('.profile-container').addEventListener('click', function() {
+  const hiMessage = document.querySelector('.hi-message');
+  hiMessage.classList.add('show');
+  setTimeout(() => {
+    hiMessage.classList.remove('show');
+  }, 1000);
+});
+
     </script>
   </body>
 </html>

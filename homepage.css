@@ -34,15 +34,22 @@ body {
     cursor: url(image/leaf\ cursor.png) 4 4, auto;
 }
 
+
+
 .hero {
     background: url(image/bg\ for\ homepage.jpg) no-repeat center center/cover;
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 100px 20px;
 }
-  
-.hero h1 {
-    font-size: 3.5rem;
+
+.asd, .hero h1, .hero p {
+  padding: 0;
+  margin: 0;
+  }
+
+.asd {
+  font-size: 2rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     background: linear-gradient(90deg, #fbfdfc, #b0b3b0);
@@ -51,24 +58,95 @@ body {
     color: transparent;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin: 0;
+    margin-bottom: 0px;
     animation: fadeInText 2s ease-out;
     text-align: center;
+    opacity: 0;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  background: linear-gradient(90deg, #fbfdfc, #b0b3b0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  animation: fadeInText 2s ease-out;
+  text-align: center;
+  opacity: 0;
+  animation-delay: 4.5s;
+  animation-fill-mode: forwards;
 }
 
 .hero p {
-    font-size: 1.51rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    background: linear-gradient(90deg, #fbfdfc, #b0b3b0);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin: 0;
-    animation: fadeInText 2s ease-out;
+  font-size: 1.51rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  background: linear-gradient(90deg, #fbfdfc, #b0b3b0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+  animation: fadeInText 2s ease-out;
+  opacity: 0;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
 }
+
+.profile-container {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+  
+.profpic {
+  width: 150px;
+  height: 175px;
+  border-radius: 75px;
+  margin-right: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hi-message {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: #006400;
+  font-weight: bold;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.profile-container:hover .hi-message {
+  opacity: 1;
+  transform: translate(-50%, -60%);
+}
+
+.profile-container:active .profpic {
+  transform: scale(1.1);
+}
+
+.profile-container:active .hi-message {
+  opacity: 1;
+  transform: translate(-50%, -60%) scale(1.2);
+}
+
+.profpic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
 
 #intro {
   position: fixed;
@@ -263,7 +341,7 @@ body {
     opacity: 0;
     visibility: hidden;
     position: absolute;
-    top: 83%;
+    top: 90%;
     left: 55%;
     transform: translateX(-50%);
     font-size: 2rem;
