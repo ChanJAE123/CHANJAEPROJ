@@ -472,11 +472,11 @@ h2 {
     word-spacing: 2px;
   }
 
-    .asd {
-      font-size: 2rem;
-      text-align: none;
-      margin-bottom: 5px;
-    }
+  .asd {
+    font-size: 2rem;
+    text-align: none;
+    margin-bottom: 5px;
+  }
 
     .navbar {
       position: fixed;
@@ -686,9 +686,9 @@ h2 {
     font-size: 1.5rem;
     /* top: 100%; */
     left: 60%;
-    margin-top: 330px;
+    margin-top: 450px;
     transform: translateX(-50%);
-    padding: 0px 3px;
+    padding: 0px 0px;
   }
 }
 
