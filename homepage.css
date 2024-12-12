@@ -110,6 +110,7 @@ body {
 .profpic {
   width: 110px;
   height: 140px;
+  border-radius: 20px;
   margin-right: 50px;
   transition: transform 0.3s ease-in-out;
 }
@@ -145,7 +146,6 @@ body {
   transform: scale(1.05);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
-
 
 #intro {
   position: fixed;
@@ -481,9 +481,10 @@ h2 {
   font-size: 1rem;
 }
 
-.social-icons {
+ .social-icons {
     display: inline-flex;
     gap: 15px;
+    margin-top: 10px;
   }
   
   .icon {
@@ -498,6 +499,9 @@ h2 {
   .facebook {
     background-color: transparent;
     background-image: url(image/fb\ icon\ try.webp);
+    /* transform: scale(1.05); */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0);
+    transition: transform ease-out;
   }
   .instagram {
     width: 45px;
@@ -505,10 +509,16 @@ h2 {
     margin-top: 3px;
     background-color: transparent;
     background-image: url(image/ig\ icon\ try.avif);
+    /* transform: scale(1.05); */
+    /* box-shadow: 0 6px 15px rgba(0, 0, 0, 0); */
   }
   .gmail{
     margin-top: 3px;
     background-image: url(image/gmail\ try\ icon.webp);
+    transform: scale(1); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0);
+    /* width: ;
+    height: ; */
   }
 
   .github {
@@ -518,7 +528,21 @@ h2 {
     height: 35px;
     margin-top: 9px;
     margin-left: 5px;
+    /* transform: scale(1.2); */
+    /* box-shadow: 0 6px 15px rgba(0, 0, 0, 0); */
   }
+
+  .facebook:hover , .instagram:hover, .github:hover , .gmail:hover {
+    transform: scale(1.2);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .facebook, .instagram, .gmail , .github {
+transition: transform 0.3s ease-out, box-shadow 0.3 ease;
+  }
+
+  
 
 .footer {
     background: #333;
