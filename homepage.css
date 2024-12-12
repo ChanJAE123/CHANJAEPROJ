@@ -340,7 +340,7 @@ body {
     opacity: 0;
     visibility: hidden;
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 55%;
     transform: translateX(-50%);
     font-size: 2rem;
@@ -479,6 +479,23 @@ h2 {
 .python {
   margin-left: 0;
   font-size: 1rem;
+}
+
+.skill-icons {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.skill-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+
+.github {
+  margin-left: 10px;
 }
 
  .social-icons {
