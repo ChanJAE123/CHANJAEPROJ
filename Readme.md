@@ -3,11 +3,14 @@
 
 🎉WHAT'S INSIDE?🎉
   1. ABOUT ME SECTION - Information about me :>
-  2. SDG #15 SECTION - Detailed Information about Life on Land
-  3. PROJECTS SECTION (In another page)
-     Contains:
+  2. SDG #15 SECTION (another page)
+  Contains:
       • Battle Against Deforestation - Information about what and what is cure to Deforestation
       • Extend the Lifespan of Wildlife - Information about what kills and how to save the Wild Life
+  3. PROJECTS SECTION (All Python)
+     i.) Rock Paper Scissor Game
+     ii.) Guess The Number (Computer) Game
+     iii.) Guess The Number (User) Game
   4. SKILLS SECTION - Breaks down what tools that I used to use and have average to above average knowledge.
   5. CONTACT ME SECTION - Provides ways for audience to interact with me in 3 different socmed platforms.
      Platforms:
@@ -25,6 +28,7 @@
   7. AT NAPAKARAMI PANG IBA!!!
 
 🛠️TOOLS USED:
+• PYTHON - for game development
 • VS CODE - for IDE
 • HTML - for structure
 • CSS - for design
