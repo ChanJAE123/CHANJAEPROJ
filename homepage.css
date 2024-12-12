@@ -17,8 +17,8 @@
 .leaf {
   position: fixed;
   top: -50px;
-  width: 20px;
-  height: 20px;
+  width: 23px;
+  height: 23px;
   background-image: url('image/final\ dahon.png');
   background-size: cover;
   animation: fall linear infinite;
@@ -62,7 +62,7 @@ body {
     animation: fadeInText 2s ease-out;
     text-align: center;
     opacity: 0;
-    animation-delay: 3.5s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
 }
 
@@ -80,7 +80,7 @@ body {
   animation: fadeInText 2s ease-out;
   text-align: center;
   opacity: 0;
-  animation-delay: 4.5s;
+  animation-delay: 4s;
   animation-fill-mode: forwards;
 }
 
@@ -97,7 +97,7 @@ body {
   margin: 0;
   animation: fadeInText 2s ease-out;
   opacity: 0;
-  animation-delay: 6s;
+  animation-delay: 5.5s;
   animation-fill-mode: forwards;
 }
 
