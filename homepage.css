@@ -481,16 +481,17 @@ h2 {
   font-size: 1rem;
 }
 
-.skill-icons {
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
+/* .skill-icons {
+  
+} */
 
 .skill-icons img {
   width: 30px;
   height: 30px;
+  padding: 0 0;
+  align-items: center;
+margin-left: 10px;
+margin-bottom: 10px;
 }
 
 
