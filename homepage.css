@@ -340,7 +340,7 @@ body {
     opacity: 0;
     visibility: hidden;
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 55%;
     transform: translateX(-50%);
     font-size: 2rem;
