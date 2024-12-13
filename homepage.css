@@ -508,6 +508,12 @@ h2 {
   height: 30px;
 }
 
+.skill-icons img:hover{
+  transform: scale(1.2);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 .section.bg-light h2 {
   margin-bottom: 15px;
 }
@@ -861,6 +867,12 @@ transition: transform 0.3s ease-out, box-shadow 0.3 ease;
       margin-bottom: 10px;
     }
 
+    .skill-icons img:hover{
+      transform: scale(1.2);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
     .social-icons {
       margin-top: 25px;
     }
@@ -919,6 +931,12 @@ transition: transform 0.3s ease-out, box-shadow 0.3 ease;
     align-items: left;
     margin-left: 10px;
     margin-bottom: 8px;
+  }
+
+  .skill-icons img:hover{
+    transform: scale(1.2);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 }
 
