@@ -508,6 +508,10 @@ h2 {
   height: 30px;
 }
 
+.section.bg-light h2 {
+  margin-bottom: 15px;
+}
+
 .section.bg-light b {
   font-size: 1.25rem;
 }
@@ -844,6 +848,10 @@ transition: transform 0.3s ease-out, box-shadow 0.3 ease;
       font-size: 1.25rem;
     }
 
+    .expertise {
+      margin-left: 5px;
+    }
+
     .skill-icons img {
       width: 35px;
       height: 35px;
@@ -858,6 +866,11 @@ transition: transform 0.3s ease-out, box-shadow 0.3 ease;
     }
 }
 
+
+
+
+
+
   @media (max-width: 480px) {
   #message {
     font-size: 1.5rem;
@@ -871,7 +884,7 @@ transition: transform 0.3s ease-out, box-shadow 0.3 ease;
   .skill-icons {
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: .05px;
   }
   
   .skill-item {
@@ -883,6 +896,7 @@ transition: transform 0.3s ease-out, box-shadow 0.3 ease;
   .skill-item p {
     margin-top: 10px;
     margin: 0;
+    margin-bottom: 5px;
   }
   
   .skill-icons img {
@@ -894,13 +908,17 @@ transition: transform 0.3s ease-out, box-shadow 0.3 ease;
     font-size: 1.25rem;
   }
 
+  .expertise {
+    margin-left: 5px;
+  }
+
   .skill-icons img {
     width: 35px;
     height: 35px;
     padding: 0 0;
     align-items: left;
     margin-left: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 }
 
